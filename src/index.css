@@ -1,12 +1,16 @@
+/* Tailwind CSS Configuration */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Global styles */
-body {
-  @apply m-0 font-sans antialiased;
-}
+@layer base {
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f8f8f8; /* off white */
+    color: #000; /* black text */
+  }
 
-code {
-  @apply font-mono;
+  .bg-off-white {
+    background-color: #f8f8f8; /* off white */
+  }
 }
