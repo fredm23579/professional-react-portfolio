@@ -65,6 +65,11 @@
     └── setupTests.js
 
 ```
+### links
+
+[Live Netlify App Link](https://snazzy-piroshki-3bf064.netlify.app/)
+
+[GitHub Repo Link](https://github.com/fredm23579/professional-react-portfolio)
 
 ---
 
