@@ -65,7 +65,7 @@
     └── setupTests.js
 
 ```
-### links
+### Links
 
 [Live Netlify App Link](https://snazzy-piroshki-3bf064.netlify.app/)
 
