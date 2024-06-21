@@ -20,8 +20,7 @@ const Portfolio = () => (
       <Project title="Project 13: MVC Tech Blog" image="https://github.com/fredm23579/tech-blog-mvc/blob/main/public/img/Screenshot_tech_blog.png" deployedLink="https://tech-blog-mvc-express-8bd9dcae84c7.herokuapp.com/login" repoLink="https://github.com/fredm23579/tech-blog-mvc" />
       <Project title="Project 14: Travel Blog" image="https://github.com/fredm23579/travel-tales-exchange/blob/main/public/img/clear-water-beaches-florida-2048x917.jpg" deployedLink="https://travel-tales-exchange-50aa2535b133.herokuapp.com/login" repoLink="https://github.com/fredm23579/travel-tales-exchange" />
       <Project title="Project 15: Regex Tutorial (Email Validation)" image="https://gist.github.com/fredm23579/841976d76ec9e98eff5bb09361db1720" deployedLink="https://gist.github.com/fredm23579/841976d76ec9e98eff5bb09361db1720" repoLink="https://github.com/fredm23579/regex-tutorial" />
-
-
+      <Project title="Project 16: Social Network API" image="https://drive.google.com/file/d/1Yt7dCbCoSwGYT1H1gNbMIVCWCOM5BH53/view?usp=sharing" deployedLink="https://github.com/fredm23579/nosql-social-network-backend-api" repoLink="https://github.com/fredm23579/nosql-social-network-backend-api" />
       {/* Add more Project components as needed */}
     </div>
   </section>
