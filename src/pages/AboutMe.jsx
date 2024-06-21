@@ -13,29 +13,31 @@ const AboutMe = () => (
       <div className="mb-4">
         <p className="text-gray-600">Riverside, CA 92507</p>
         <p className="text-gray-600">
-          Email: <a href="mailto:motta@g.ucla.edu" className="text-blue-500">motta@g.ucla.edu</a>
+          Email: <a href="mailto:motta@g.ucla.edu" className="text-blue-500 hover:shadow-md">motta@g.ucla.edu</a>
         </p>
         <p className="text-gray-600">
-          Phone: <a href="tel:+17604753134" className="text-blue-500">+1 760 475 3134</a>
+          Phone: <a href="tel:+17604753134" className="text-blue-500 hover:shadow-md">+1 760 475 3134</a>
         </p>
         <p className="text-gray-600">
-          LinkedIn: <a href="https://www.linkedin.com/in/fred-motta" target="_blank" className="text-blue-500">fred-motta</a>
+          LinkedIn: <a href="https://www.linkedin.com/in/fred-motta" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">fred-motta</a>
         </p>
       </div>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Professional Summary</h2>
-        <p className="text-gray-700">Versatile Full Stack Developer with over a year of hands-on experience in developing robust web applications using <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank" className="text-blue-500 hover:shadow-md">NoSQL databases</a>, and <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" className="text-blue-500 hover:shadow-md">GraphQL</a>. Demonstrated ability to collaborate effectively within dynamic teams, enhancing both backend and frontend performance. Passionate about continuous learning and committed to delivering high-quality, impactful software solutions.</p>
+        <p className="text-gray-700">
+          Versatile Full Stack Developer with over a year of hands-on experience in developing robust web applications using <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">NoSQL databases</a>, and <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a>. Demonstrated ability to collaborate effectively within dynamic teams, enhancing both backend and frontend performance. Passionate about continuous learning and committed to delivering high-quality, impactful software solutions.
+        </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Skills</h2>
         <div className="pl-5 text-gray-700">
-          <p className="mb-2"><span className="font-bold">Web Development:</span> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" className="text-blue-500 hover:shadow-md">JavaScript</a>, <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank" className="text-blue-500 hover:shadow-md">React.js</a>, <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/Express.js" target="_blank" className="text-blue-500 hover:shadow-md">Express.js</a>, MERN Stack, REST API, CRUD, Responsive Web Design, PWA, MVC, <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" className="text-blue-500 hover:shadow-md">GraphQL</a>, Bootstrap, Tailwind, e-commerce development</p>
-          <p className="mb-2"><span className="font-bold">Programming Languages:</span> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" className="text-blue-500 hover:shadow-md">Python</a>, <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" className="text-blue-500 hover:shadow-md">SQL</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" className="text-blue-500 hover:shadow-md">Java</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" className="text-blue-500 hover:shadow-md">C/C++</a>, <a href="https://en.wikipedia.org/wiki/Fortran" target="_blank" className="text-blue-500 hover:shadow-md">Fortran</a>, <a href="https://en.wikipedia.org/wiki/Git" target="_blank" className="text-blue-500 hover:shadow-md">Git</a>, Linux, Unix</p>
-          <p className="mb-2"><span className="font-bold">Databases:</span> <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" className="text-blue-500 hover:shadow-md">MongoDB (NoSQL)</a>, MySQL, SQL, PostgreSQL</p>
-          <p className="mb-2"><span className="font-bold">Cloud Services:</span> <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank" className="text-blue-500 hover:shadow-md">AWS (DynamoDB, AWS Lambda)</a></p>
-          <p className="mb-2"><span className="font-bold">Software and Tools:</span> <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code" target="_blank" className="text-blue-500 hover:shadow-md">VS Code</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio" target="_blank" className="text-blue-500 hover:shadow-md">Visual Studio</a>, <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" className="text-blue-500 hover:shadow-md">GitHub</a>, Powershell, API development, Insomnia, Jest, Unit Testing, npm</p>
+          <p className="mb-2"><span className="font-bold">Web Development:</span> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">JavaScript</a>, <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">React.js</a>, <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/Express.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Express.js</a>, MERN Stack, REST API, CRUD, Responsive Web Design, PWA, MVC, <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a>, Bootstrap, Tailwind, e-commerce development</p>
+          <p className="mb-2"><span className="font-bold">Programming Languages:</span> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Python</a>, <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">SQL</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Java</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">C/C++</a>, <a href="https://en.wikipedia.org/wiki/Fortran" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Fortran</a>, <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Git</a>, Linux, Unix</p>
+          <p className="mb-2"><span className="font-bold">Databases:</span> <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">MongoDB (NoSQL)</a>, MySQL, SQL, PostgreSQL</p>
+          <p className="mb-2"><span className="font-bold">Cloud Services:</span> <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">AWS (DynamoDB, AWS Lambda)</a></p>
+          <p className="mb-2"><span className="font-bold">Software and Tools:</span> <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">VS Code</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Visual Studio</a>, <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GitHub</a>, Powershell, API development, Insomnia, Jest, Unit Testing, npm</p>
         </div>
       </section>
 
@@ -45,9 +47,9 @@ const AboutMe = () => (
           <h3 className="font-semibold">Full Stack Software Developer</h3>
           <p className="text-gray-600">Quanta Enterprise LLC - Riverside, CA (January 2021 – March 2023)</p>
           <div className="pl-5 text-gray-700">
-            <p className="mb-2">Developed and maintained dynamic web applications using <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" className="text-blue-500 hover:shadow-md">JavaScript</a>, React.js, and Node.js.</p>
+            <p className="mb-2">Developed and maintained dynamic web applications using <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">JavaScript</a>, React.js, and Node.js.</p>
             <p className="mb-2">Designed and implemented RESTful APIs and CRUD functionalities with the MERN Stack, ensuring seamless data flow and interaction.</p>
-            <p className="mb-2">Integrated <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" className="text-blue-500 hover:shadow-md">GraphQL</a> to optimize data querying, improving efficiency and performance.</p>
+            <p className="mb-2">Integrated <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a> to optimize data querying, improving efficiency and performance.</p>
             <p className="mb-2">Enhanced user interface and optimized backend processes, increasing payment processing efficiency by 30% through the implementation of advanced e-commerce systems.</p>
             <p className="mb-2">Played a key role in SCRUM and AGILE development environments, accelerating project timelines and improving team productivity by 20%.</p>
             <p className="mb-2">Conducted comprehensive data analysis using SQL and Python, deriving actionable insights to support strategic decision-making.</p>
@@ -68,16 +70,16 @@ const AboutMe = () => (
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Education</h2>
         <div className="pl-5 text-gray-700">
-          <p className="mb-2">Full Stack Software Development, <a href="https://en.wikipedia.org/wiki/University_of_California,_Riverside" target="_blank" className="text-blue-500 hover:shadow-md">University of California, Riverside</a> - Riverside, CA (June 2024)</p>
-          <p className="mb-2">Master of Science in Physics, <a href="https://en.wikipedia.org/wiki/University_at_Albany,_SUNY" target="_blank" className="text-blue-500 hover:shadow-md">University at Albany, State University of New York</a> - Albany, NY (August 2011)</p>
-          <p className="mb-2">Bachelor of Science in Physics, <a href="https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles" target="_blank" className="text-blue-500 hover:shadow-md">University of California, Los Angeles</a> - Los Angeles, CA (June 2003)</p>
+          <p className="mb-2">Full Stack Software Development, <a href="https://en.wikipedia.org/wiki/University_of_California,_Riverside" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">University of California, Riverside</a> - Riverside, CA (June 2024)</p>
+          <p className="mb-2">Master of Science in Physics, <a href="https://en.wikipedia.org/wiki/University_at_Albany,_SUNY" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">University at Albany, State University of New York</a> - Albany, NY (August 2011)</p>
+          <p className="mb-2">Bachelor of Science in Physics, <a href="https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">University of California, Los Angeles</a> - Los Angeles, CA (June 2003)</p>
         </div>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Certifications</h2>
         <div className="pl-5 text-gray-700">
-          <p className="mb-2">Online Teaching Certification, <a href="https://en.wikipedia.org/wiki/Riverside_Community_College_District" target="_blank" className="text-blue-500 hover:shadow-md">Riverside Community College District</a> (January 2019)</p>
+          <p className="mb-2">Online Teaching Certification, <a href="https://en.wikipedia.org/wiki/Riverside_Community_College_District" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Riverside Community College District</a> (January 2019)</p>
         </div>
       </section>
 
