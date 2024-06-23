@@ -24,6 +24,13 @@ const AboutMe = () => (
       </div>
 
       <section className="mb-6">
+        <h2 className="text-xl font-semibold mb-2">Bio</h2>
+        <p className="text-gray-700">
+          I was born in USC Medical Center in Los Angeles, California. Growing up in Rosemead, I was raised bilingual, fluent in both English and Spanish. My educational journey took me to the University of California, Los Angeles, where I earned a Bachelor of Science in Physics. I further pursued my studies and obtained a Master of Science in Physics from the University at Albany, State University of New York. With a strong foundation in science and a passion for technology, I transitioned into software development, specializing as a Full Stack Developer. My career has been driven by a commitment to continuous learning and delivering impactful software solutions.
+        </p>
+      </section>
+
+      <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Professional Summary</h2>
         <p className="text-gray-700">
           Versatile Full Stack Developer with over a year of hands-on experience in developing robust web applications using <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">NoSQL databases</a>, and <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a>. Demonstrated ability to collaborate effectively within dynamic teams, enhancing both backend and frontend performance. Passionate about continuous learning and committed to delivering high-quality, impactful software solutions.
