@@ -26,50 +26,97 @@ const AboutMe = () => (
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Bio</h2>
         <p className="text-gray-700">
-          I was born in USC Medical Center in Los Angeles, California. Growing up in Rosemead, I was raised bilingual, fluent in both English and Spanish. My educational journey took me to the University of California, Los Angeles, where I earned a Bachelor of Science in Physics. I further pursued my studies and obtained a Master of Science in Physics from the University at Albany, State University of New York. With a strong foundation in science and a passion for technology, I transitioned into software development, specializing as a Full Stack Developer. My career has been driven by a commitment to continuous learning and delivering impactful software solutions.
+          Born in USC Medical Center in Los Angeles, California, I grew up in Rosemead, where I was raised bilingual, fluent in both English and Spanish. I earned a Bachelor of Science in Physics from the University of California, Los Angeles, and a Master of Science in Physics from the University at Albany, State University of New York. Transitioning into software development, I specialize as a Full Stack Developer with a strong foundation in science and a passion for technology. My career is driven by continuous learning and delivering impactful software solutions.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Professional Summary</h2>
         <p className="text-gray-700">
-          Versatile Full Stack Developer with over a year of hands-on experience in developing robust web applications using <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">NoSQL databases</a>, and <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a>. Demonstrated ability to collaborate effectively within dynamic teams, enhancing both backend and frontend performance. Passionate about continuous learning and committed to delivering high-quality, impactful software solutions.
+          Highly skilled and motivated IT professional with expertise in data science, machine learning, computer science, and data analysis. Proficient in modern technologies and tools for IT infrastructure and data management. Extensive experience in teaching, curriculum development, and research in physics. Strong background in scientific instrumentation, troubleshooting, and research studies. Seeking an IT Analyst Intern position to leverage my skills in a healthcare setting.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Skills</h2>
         <div className="pl-5 text-gray-700">
-          <p className="mb-2"><span className="font-bold">Web Development:</span> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">JavaScript</a>, <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">React.js</a>, <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Node.js</a>, <a href="https://en.wikipedia.org/wiki/Express.js" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Express.js</a>, MERN Stack, REST API, CRUD, Responsive Web Design, PWA, MVC, <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a>, Bootstrap, Tailwind, e-commerce development</p>
-          <p className="mb-2"><span className="font-bold">Programming Languages:</span> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Python</a>, <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">SQL</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Java</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">C/C++</a>, <a href="https://en.wikipedia.org/wiki/Fortran" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Fortran</a>, <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Git</a>, Linux, Unix</p>
-          <p className="mb-2"><span className="font-bold">Databases:</span> <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">MongoDB (NoSQL)</a>, MySQL, SQL, PostgreSQL</p>
-          <p className="mb-2"><span className="font-bold">Cloud Services:</span> <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">AWS (DynamoDB, AWS Lambda)</a></p>
-          <p className="mb-2"><span className="font-bold">Software and Tools:</span> <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">VS Code</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Visual Studio</a>, <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GitHub</a>, Powershell, API development, Insomnia, Jest, Unit Testing, npm</p>
+          <p className="mb-2"><span className="font-bold">IT Support:</span> IT infrastructure management, electronics, instrumentation troubleshooting, MS Office, Windows operating systems</p>
+          <p className="mb-2"><span className="font-bold">Data Science:</span> Machine Learning, Statistical Modeling, Data Analysis</p>
+          <p className="mb-2"><span className="font-bold">Software Development:</span> JavaScript, Python, SQL, Node.js, React.js, HTML, CSS, MongoDB, GraphQL, Express.js, MERN Stack, MATLAB, C, C++, C#, FORTRAN, Java, PowerShell, Mathematica</p>
+          <p className="mb-2"><span className="font-bold">Tools:</span> AWS, Google Cloud Platform, Git, GitHub, Tableau, Power BI</p>
+          <p className="mb-2"><span className="font-bold">Communication:</span> Technical writing, delivering presentations, simplifying complex concepts</p>
+          <p className="mb-2"><span className="font-bold">Languages:</span> English (Fluent), Spanish (Fluent)</p>
         </div>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Work Experience</h2>
         <div className="mb-4">
-          <h3 className="font-semibold">Full Stack Software Developer</h3>
-          <p className="text-gray-600">Quanta Enterprise LLC - Riverside, CA (January 2021 – March 2023)</p>
+          <h3 className="font-semibold">IT and Data Science Consultant</h3>
+          <p className="text-gray-600">Freelance - Riverside, CA (2022 - Present)</p>
           <div className="pl-5 text-gray-700">
-            <p className="mb-2">Developed and maintained dynamic web applications using <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">HTML</a>, <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">CSS</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">JavaScript</a>, React.js, and Node.js.</p>
-            <p className="mb-2">Designed and implemented RESTful APIs and CRUD functionalities with the MERN Stack, ensuring seamless data flow and interaction.</p>
-            <p className="mb-2">Integrated <a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">GraphQL</a> to optimize data querying, improving efficiency and performance.</p>
-            <p className="mb-2">Enhanced user interface and optimized backend processes, increasing payment processing efficiency by 30% through the implementation of advanced e-commerce systems.</p>
-            <p className="mb-2">Played a key role in SCRUM and AGILE development environments, accelerating project timelines and improving team productivity by 20%.</p>
-            <p className="mb-2">Conducted comprehensive data analysis using SQL and Python, deriving actionable insights to support strategic decision-making.</p>
+            <p className="mb-2">Provided IT support and data science consulting services to various clients.</p>
+            <p className="mb-2">Assisted in the development and implementation of machine learning models and data analysis projects.</p>
           </div>
         </div>
 
         <div className="mb-4">
           <h3 className="font-semibold">Adjunct Physics Professor</h3>
-          <p className="text-gray-600">Riverside Community College District - Norco, CA (September 2019 – December 2021)</p>
+          <p className="text-gray-600">Riverside Community College District - Norco, CA (2019 - 2022)</p>
           <div className="pl-5 text-gray-700">
-            <p className="mb-2">Integrated cutting-edge data science techniques into the physics curriculum, enriching the educational experience.</p>
-            <p className="mb-2">Utilized data-driven methods to analyze educational outcomes, resulting in improved student performance.</p>
-            <p className="mb-2">Developed and standardized lab procedures, ensuring a safe and conducive learning environment for a diverse student body.</p>
+            <p className="mb-2">Incorporated data science techniques into the physics curriculum.</p>
+            <p className="mb-2">Analyzed educational datasets to improve student outcomes through data-driven instructional approaches.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Adjunct Physics Professor</h3>
+          <p className="text-gray-600">San Bernardino Valley College - San Bernardino, CA (2016 - 2020)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Instructed undergraduate Physics courses with modern teaching methods and addressed the needs of diverse students, including those with disabilities.</p>
+            <p className="mb-2">Developed and delivered interactive physics labs to enhance student learning.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Research Analyst</h3>
+          <p className="text-gray-600">Mt. San Jacinto College - San Jacinto, CA (2018 - 2019)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Conducted data analysis using T SQL, Power BI, and Tableau in an Azure environment.</p>
+            <p className="mb-2">Developed front-end data dashboards and visualizations.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Physics Professor (Temporary Full-Time)</h3>
+          <p className="text-gray-600">College of the Desert - Palm Desert, CA (2017 - 2018)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Oversaw IT infrastructure for physics labs, from procurement to technical support for lab instruments.</p>
+            <p className="mb-2">Conducted dynamic classroom instruction for both Calculus and Non-Calculus-based Physics courses.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Scientific Instrumentation Specialist</h3>
+          <p className="text-gray-600">California State University - San Bernardino, CA (2015 - 2016)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Managed scientific instrumentation for research in chemistry, physics, geology, and computer engineering.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Graduate Research Assistant</h3>
+          <p className="text-gray-600">California State University - Northridge, CA (2004 - 2009)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Conducted research on mathematical and physical models of quantum mechanical many-body systems using efficient numerical algorithms.</p>
+          </div>
+        </div>
+
+        <div className="mb-4">
+          <h3 className="font-semibold">Data Analyst</h3>
+          <p className="text-gray-600">JT3, LLC - Edwards AFB, CA (2006 - 2008)</p>
+          <div className="pl-5 text-gray-700">
+            <p className="mb-2">Conducted extensive data analysis on information collected from multiple GPS and Inertial Navigation sensors using Kalman filters.</p>
           </div>
         </div>
       </section>
@@ -86,7 +133,11 @@ const AboutMe = () => (
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Certifications</h2>
         <div className="pl-5 text-gray-700">
-          <p className="mb-2">Online Teaching Certification, <a href="https://en.wikipedia.org/wiki/Riverside_Community_College_District" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:shadow-md">Riverside Community College District</a> (January 2019)</p>
+          <p className="mb-2">Certificate in Full Stack Software Development, University of California, Riverside (June 2024)</p>
+          <p className="mb-2">Online Teaching Certification, Riverside Community College District (2019)</p>
+          <p className="mb-2">Legal Assistant Certificate</p>
+          <p className="mb-2">Interior Design Certificate</p>
+          <p className="mb-2">Certificate in Microsoft Office, IT</p>
         </div>
       </section>
 
